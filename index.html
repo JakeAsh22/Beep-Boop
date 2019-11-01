@@ -11,18 +11,22 @@
 
   <body>
     <div class="container">
-
-
     <div class="jumbotron">
-      <h4>Beep boop</h4>
+      <h1>Beep boop</h1>
     </div>
     <form id="formBeep">
       <div class="form-group">
         <label for="input"></label>
-        <input type="number" class="input">
+        <input type="number" id="input">
       </div>
-      <button type="submit" name="button">Submit</button>
+      <button type="submit" name="button" class="btn btn-warning">Submit</button>
     </form>
+
+      <div id="results">
+        <div class="jumbotron">
+          <h2><span id="output"></span></h2>
+        </div>
+    </div>
     </div>
   </body>
 </html>
